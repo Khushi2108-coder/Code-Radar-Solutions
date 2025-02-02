@@ -3,8 +3,8 @@ int main() {
     int x,y;
     scanf("%d",&x);
     sacnf("%d",&y);
-    if((!(x>0)) && (!(y>0))){
-        printf("True");
+    if(x!>0 && y!>0){
+        prntf("True");
     }
     else{
         printf("False");
