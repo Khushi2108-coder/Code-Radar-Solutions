@@ -8,7 +8,7 @@ int main() {
     else if(((x==y) && (y==z) && (z!=x)) || ((y==z) && (z==x) && (x!=y)) || ((x==y) && (x==z) && (y!=z))){
         printf("Icosceles");
     }
-    else if(x!=y!=z){
+    else {
         printf("Scalene");
     }
     return 0;
