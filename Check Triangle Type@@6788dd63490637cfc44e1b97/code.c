@@ -5,10 +5,10 @@ int main() {
     if((x==y) && (y==z) && (z==x)){
         printf("Equilateral");
     }
-    else if(((x==y) && (y==z) && (z!=x)) || ((y==z) && (z==x) && (x!=y)) || ((x==y) && (x==z) && (y!=z))){
+    if(((x==y) && (y==z) && (z!=x)) || ((y==z) && (z==x) && (x!=y)) || ((x==y) && (x==z) && (y!=z))){
         printf("Icosceles");
     }
-    else{
+    if(x!=y!=z){
         printf("Scalene");
     }
     return 0;
