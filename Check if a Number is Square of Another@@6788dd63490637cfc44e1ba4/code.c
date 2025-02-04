@@ -4,7 +4,7 @@ int main() {
     scanf("%d %d",&x,&y);
     z=y*y;
     if(z==x){
-        printf("yes");
+        printf("Yes");
     }
     else{
         printf("No");
