@@ -15,7 +15,7 @@ int main() {
         s=x/y;
         printf("%d",s);
     }
-    else (z=='*'){
+    else {
         s=x*y;
         printf("%d",s);
     }
