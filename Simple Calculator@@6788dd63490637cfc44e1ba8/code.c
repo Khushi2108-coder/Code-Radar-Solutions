@@ -11,13 +11,14 @@ int main() {
         s=x-y;
         printf("%d",s);
     }
-    else if(z=='*'){
-        s=x*y;
-        printf("%d",s);
-    }
-    else{
+    else if(z=='/' && y!=0){
         s=x/y;
         printf("%d",s);
     }
+    else (z=='*'){
+        s=x*y;
+        printf("%d",s);
+    }
+    
     return 0;
 }
