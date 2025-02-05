@@ -4,15 +4,15 @@ int main() {
     char z;
     scanf("%d %d",&d &d);
     scanf("%d",z);
-    if(x=="+"){
+    if(z=="+"){
         s=x+y;
         printf("%d",s);
     }
-    else if(x=="-"){
+    else if(z=="-"){
         s=x-y;
         printf("%d",s);
     }
-    else if(x=="*"){
+    else if(z=="*"){
         s=x*y;
         printf("%d",s);
     }
