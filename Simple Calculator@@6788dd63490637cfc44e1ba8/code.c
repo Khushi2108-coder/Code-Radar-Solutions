@@ -15,7 +15,7 @@ int main() {
         s=x/y;
         printf("%d",s);
     }
-    else if(z=='/' && y=0){
+    else if(z=='/' && y==0){
         printf("error");
     }
     else {
