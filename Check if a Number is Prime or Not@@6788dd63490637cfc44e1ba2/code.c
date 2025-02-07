@@ -3,7 +3,7 @@ int main() {
     int x;
     scanf("%d",&x);
     int a=0;
-    for(i=1;i<=x;i++){
+    for(i=2;i<=x;i++){
         if(x%i==0){
             a=1;
             break;
