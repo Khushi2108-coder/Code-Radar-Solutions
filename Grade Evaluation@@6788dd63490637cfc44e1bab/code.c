@@ -2,16 +2,16 @@
 int main() {
     int x;
     scanf("%d",&x);
-    if(x='A'){
+    if(x=='A'){
         printf("Excellent");
     }
-    else if(x='B'){
+    else if(x=='B'){
         printf("Good");
     }
-    else if(x='C'){
+    else if(x=='C'){
         printf("Average");
     }
-    else if(x='D'){
+    else if(x=='D'){
         printf("Below Average");
     }
     else{
