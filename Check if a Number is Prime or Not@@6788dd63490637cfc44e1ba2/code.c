@@ -9,7 +9,7 @@ int main() {
             break;
         }
     }
-    if(a==1){
+    if(a=1){
         printf("Not Prime");
     }
     else{
