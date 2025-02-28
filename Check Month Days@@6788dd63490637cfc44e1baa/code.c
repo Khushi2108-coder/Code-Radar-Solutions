@@ -33,8 +33,8 @@ int main(){
     }    else if(I==11){
         printf("31");
     }
-        else if(I==12){
-        printf("30")
+        else{
+        printf("30");
     }
     return 0;
 }
