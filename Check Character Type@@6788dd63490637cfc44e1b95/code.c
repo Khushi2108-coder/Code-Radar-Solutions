@@ -8,7 +8,7 @@ int main(){
             printf("Vowel");
         }
         else{
-             printf("Constant");
+            printf("Constant");
         }
     }
     else{
