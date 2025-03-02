@@ -1,14 +1,13 @@
-#include <stdio.h>
-int main() {
+#include<stdio.h>
+int main(){
     int N;
-    char x
+    char c='*';
+    printf("Enter the value:");
     scanf("%d",&N);
-    for(int i=1;i<=N;i++){
-        for(int j<i+1,j++){
-            printf("%c",*);
+    for(int i=N;i>=1;i--){
+        for(int j=1;j<i+1;j++){
+            printf("%c",c);
         }
-         
+        printf("\n");
     }
-
-    return 0;
 }
