@@ -6,19 +6,19 @@ int main(){
         for(int j=1;j<i+1;j++){
             if(i%2==0){
                 if(j%2==0){
-                    printf("%d",a);
+                    printf("%d ",a);
                 }
                 else{
-                    printf("%d",b);
+                    printf("%d ",b);
                 }
 
             }
             else{
                 if(j%2==0){
-                    printf("%d",b);
+                    printf("%d ",b);
                 }
                 else{
-                    printf("%d",a);
+                    printf("%d ",a);
                 }
             }
         }
