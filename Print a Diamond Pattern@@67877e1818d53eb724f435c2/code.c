@@ -2,8 +2,8 @@
 int main(){
     int N;
     scanf("%d",&N);
-    for(int i=1;i<=N;i++){
-        for(int k=N-i+1;k>1;k--){
+    for(int i=1;i<N;i++){
+        for(int k=N-i+1;k>=1;k--){
             printf(" ");
         }
         for(int j=1;j<=2*i-1;j++){
@@ -11,12 +11,14 @@ int main(){
         }
         printf("\n");
     }
-    for(int h=1;h<N;h++){
-        for(int d=1;d<h+1;d++){
+
+    for(int h=N;h>=1;h--){
+        for(int v=1;v<=N-h+1;v++){
             printf(" ");
         }
-        for(int l=(N-(2*h-1))+1;l>=1;l--){
+        for(int p=1;p<=2*h-1;p++){
             printf("*");
+
         }
         printf("\n");
     }
