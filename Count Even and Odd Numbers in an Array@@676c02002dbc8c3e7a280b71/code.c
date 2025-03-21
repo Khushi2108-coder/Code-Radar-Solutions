@@ -7,7 +7,7 @@ int main(){
         scanf("%d",&a[i]);
     }
     for(int j=0;j<n;j++){
-        if(a[i]%2==0){
+        if(a[j]%2==0){
             printf("%d",a[j]);
         }
     }
