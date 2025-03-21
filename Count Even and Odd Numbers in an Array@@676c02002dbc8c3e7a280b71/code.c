@@ -4,7 +4,7 @@ int main(){
     scanf("%d",&n);
     int a[n];
     for(int n=1;n<=100;n++){
-        if(i%2==0){
+        if(n%2==0){
             c++;
         }
         else{
