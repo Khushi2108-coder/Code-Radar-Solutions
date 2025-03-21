@@ -2,7 +2,7 @@
 int main() {
     int x,y;
     scanf("%d",&x);
-    sacnf("%d",&y);
+    scanf("%d",&y);
     if((x>0) && (y>0)){
         prntf("False");
     }
