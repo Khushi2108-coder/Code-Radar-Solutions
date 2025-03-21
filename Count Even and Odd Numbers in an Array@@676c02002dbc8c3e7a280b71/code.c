@@ -1,16 +1,14 @@
 #include<stdio.h>
 int main(){
-    int n,c=0,d=0;
+    int n;
     scanf("%d",&n);
     int a[n];
-    for(int n=1;n<=100;n++){
-        if(n%2==0){
-            c++;
-        }
-        else{
-            d++;
+    for(int i=0;i<n;i++){
+        scanf("%d",&a[i]);
+    }
+    for(int j=0;j<n;j++){
+        if(a[i]%2==0){
+            printf("%d",a[j]);
         }
     }
-    printf("%d %d",c,d);
-
 }
