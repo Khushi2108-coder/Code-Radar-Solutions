@@ -3,11 +3,11 @@ int main() {
     int x,y;
     scanf("%d",&x);
     sacnf("%d",&y);
-    if((x!>0) && (y!>0)){
-        prntf("True");
+    if((x>0) && (y>0)){
+        prntf("False");
     }
     else{
-        printf("False");
+        printf("True");
     }
     return 0;
 }
