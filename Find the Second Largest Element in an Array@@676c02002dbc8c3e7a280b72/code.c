@@ -11,7 +11,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int max==INT_min,smax=INT_min;
+    int max=INT_min,smax=INT_min;
     for(int i=1;i<n;i++){
         if(max<arr[i]){
             smax=max;
