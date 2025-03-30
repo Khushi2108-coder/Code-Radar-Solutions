@@ -3,7 +3,7 @@
 
 int main(){
     int n;
-    scanf("%d",&n);
+    scanf("%d", &n);
 
     // If n is 1, there can't be a second largest element, so print -1
     if(n == 1) {
@@ -27,5 +27,10 @@ int main(){
         }
     }
 
-    printf("%d", smax);
+    // If no valid second largest element was found (i.e., all elements are the same)
+    if(smax == INT_MIN) {
+        printf("-1");
+    } else {
+        printf("%d", smax);
+    }
 }
