@@ -5,26 +5,26 @@ int main(){
     scanf("%d",&n);
     if(n==1){
         printf("-1");
+        return 0;
     }
     int arr[n];
-    for(int i=0;i<n;i++){
+    for(int i=o;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int max=INT_MIN,smax=INT_MIN;
-    for(int i=0;i<n;i++){
+    int max==INT_min,smax=INT_min;
+    for(int i=1;i<n;i++){
         if(max<arr[i]){
             smax=max;
             max=arr[i];
         }
-        else if((smax<arr[i])&&(max!=arr[i])){
+        else if((smax!=arr[i])&&(smax<arr[i])){
             smax=arr[i];
         }
-
     }
-    if(smax==INT_MIN){
-        smax=-1;
+    if(smax==arr[i]){
+        printf("-1");
     }
-    else{
+    else(
         printf("%d",smax);
-    }
+    )
 }
