@@ -14,10 +14,10 @@ int main(){
         tempp=arr[i];
     }
     if(temp==tempp){
-        printf("it is a palindrome");
+        printf("Yes");
     }
     else{
-        printf("it is not a palindrome");
+        printf("No");
     }
 
 
