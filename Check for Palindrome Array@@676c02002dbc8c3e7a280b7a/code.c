@@ -14,10 +14,10 @@ int main(){
         tempp=arr[i];
     }
     if(temp==tempp){
-        printf("Yes");
+        printf("YES");
     }
     else{
-        printf("No");
+        printf("NO");
     }
 
 
