@@ -15,6 +15,6 @@ int main(){
     if(smax==INT_MIN){
         printf("-1");
     }
-    printf("%d",max);
+    else{printf("%d",max);}
 
 }
