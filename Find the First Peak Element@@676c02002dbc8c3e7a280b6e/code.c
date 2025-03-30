@@ -3,7 +3,7 @@
 int main(){
     int n;
     scanf("%d",&n);
-    int arr[n],max=INT_MIN;
+    int arr[n],max=INT_MIN,smax=INT_MIN;
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
@@ -12,9 +12,9 @@ int main(){
             max=arr[i];
         }
     }
-    if(max==INT_MIN){
+    if(smax==INT_MIN){
         printf("-1");
     }
-    printf("%d",max);
+    printf("%d",smax);
 
 }
