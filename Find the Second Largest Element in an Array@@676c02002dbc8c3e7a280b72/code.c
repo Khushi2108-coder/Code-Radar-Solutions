@@ -8,7 +8,7 @@ int main(){
         return 0;
     }
     int arr[n];
-    for(int i=o;i<n;i++){
+    for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
     int max==INT_min,smax=INT_min;
@@ -21,7 +21,7 @@ int main(){
             smax=arr[i];
         }
     }
-    if(smax==arr[i]){
+    if(smax==INT_min){
         printf("-1");
     }
     else(
