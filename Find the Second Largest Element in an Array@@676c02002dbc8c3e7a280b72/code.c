@@ -17,7 +17,7 @@ int main(){
             smax=max;
             max=arr[i];
         }
-        else if((smax!=arr[i])&&(smax<arr[i])){
+        else if((max!=arr[i])&&(smax<arr[i])){
             smax=arr[i];
         }
     }
