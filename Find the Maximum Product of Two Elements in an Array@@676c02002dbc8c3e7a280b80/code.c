@@ -13,5 +13,5 @@ int main(){
             max=arr[i];
         }
     }
-    printf("%d",smax*max)
+    printf("%d",smax*max);
 }
