@@ -13,8 +13,7 @@ int main(){
                     break;
                 }
             }
-            printf("%d occuring %d number of times",arr[i],count);
-            count=0;
         }
+        printf("%d",count);
 }
 
