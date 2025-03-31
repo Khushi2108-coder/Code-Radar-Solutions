@@ -7,38 +7,23 @@ int main(){
         printf("-1");
         return 0;
     }
-    int arr[n],max=INT_MIN,smax=INT_MIN;
+    int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    for(int i=1;i<n;i++){
+    int max=INT_MIN,smax=INT_MIN;
+    for(int i=0;i<n;i++){
         if(max<arr[i]){
             smax=max;
             max=arr[i];
         }
-        else if((max!=smax)&&(smax<arr[i])){
+        else if((max!=arr[i])&&(smax<arr[i])){
             smax=arr[i];
         }
     }
     if(smax==INT_MIN){
         printf("-1");
-    }
-    else{
+    }else{
         printf("%d",smax);
     }
-    return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
