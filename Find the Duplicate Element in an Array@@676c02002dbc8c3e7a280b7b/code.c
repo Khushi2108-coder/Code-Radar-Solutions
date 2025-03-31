@@ -10,7 +10,6 @@ int main(){
             for(int j=0;i<n;i++){
                 if(arr[i]==arr[j]){
                     count=count++;
-                    break;
                 }
             }
         }
