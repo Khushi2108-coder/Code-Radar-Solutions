@@ -14,10 +14,11 @@ int main(){
     int k;
     scanf("%d",&k);
     k=k%n;
+    int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    reverse(arr,n,0;n-1);
+    reverse(arr,n,0,n-1);
     reverse(arr,n,0,k-1);
     reverse(arr,n,k,n-1);
     for(int i=0;i<n;i++){
