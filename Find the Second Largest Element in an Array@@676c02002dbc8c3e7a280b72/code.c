@@ -26,6 +26,7 @@ int main(){
     else{
         printf("%d",smax);
     }
+    return 0;
 }
 
 
