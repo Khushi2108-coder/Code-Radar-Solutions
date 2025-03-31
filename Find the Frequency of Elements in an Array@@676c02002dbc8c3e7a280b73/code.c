@@ -15,7 +15,7 @@ int main() {
     // Print the count of each element
     for (int i = 0; i < 100; i++) {
         if (count[i] > 0) {
-            printf("%d\n", i, count[i]);
+            printf("%d %d\n", i, count[i]);
         }
     }
 
